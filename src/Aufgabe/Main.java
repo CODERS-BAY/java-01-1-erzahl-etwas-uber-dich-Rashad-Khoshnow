@@ -13,6 +13,6 @@ public class Main {
         String familyName = "Khoshnow";
         double pointAverage = 3.0;
         boolean married = false;
-        System.out.printf(" age: " + age + " |name: " + name + " |gender: " + gender + " |family name: " + familyName + " |birth date: " + birthDate + " |point average: " + pointAverage + " |married : " + married);
+        System.out.printf(" age: %d |name: %s |gender: %c |family name: %s |birth date: %s |point average %f |married:  ", age , name , gender , familyName , birthDate , pointAverage ," |married %b: ",  married);
     }
 }
